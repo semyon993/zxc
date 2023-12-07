@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <form method="POST" action="/">
+        <div class="name">
+            <label>Ваш логин:</label>
+            <input type="text" name="auth_name" id="login-name" placeholder="Введите ваш логин" required>
+        </div>
+        <div class="password">
+            <label>Ваш пароль:</label>
+            <input type="text" name="auth_password" id="login-pass" placeholder="Введите ваш пароль" required>
+        </div>
+        <button value="login" type="submit" name="form_auth_button" id="login-sumbit" onclick="vhod()">Войти</button>
+    </form>
+
+    <a href="/registration.html" style="color:black">Нет учетной запси?</a>
+</body>
+</html>

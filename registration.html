@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <form method="POST" action="*">
+        <div class="name">
+            <label>Ваш логин</label>
+            <input type="text" name="signup_name" id="reg-name" placeholder="Введите логин" required>
+        </div>
+        <div class="password">
+            <label>Ваш пароль</label>
+            <input type="password" name="signup_pass" id="reg-pass" placeholder="Введите пароль" required>
+        </div>
+        <button value="register" type="submit" name="form_signup_button" id="signup-sumbit" onclick="vhod()">Зарегистрироваться</button>
+    </form>
+    <a href="/login.html" style="color:black">У вас есть учетная запись?</a>
+</body>
+</html>
